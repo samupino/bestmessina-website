@@ -95,7 +95,7 @@ To push the changes to GitHub go again to the "Source Control" icon and
 2. Choose a message that briefly explains what you changed.
 3. Click "Commit". Congrats, you created your first commit! Now this change will have your name.
 4. Make as many commits as you want.
-5. When you are satisfied, push the commits to GitHub with `...` and then `Push`. In this way, also the others will be able to see them!
+5. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
 
 Be careful, because if other people were workin on the same files as you, you may experience conflicts! Conflicts need to be resolved manually and it's better to avoid them.
 
