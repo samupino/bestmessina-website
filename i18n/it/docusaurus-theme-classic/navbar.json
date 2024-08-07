@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "BEST Mesina Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Scopri BEST": {
+    "message": "Scopri BEST",
+    "description": "Navbar item with label Scopri BEST"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Our identity": {
+    "message": "La nostra identità",
+    "description": "Navbar item with label Our identity"
+  }
+}
