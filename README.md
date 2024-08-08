@@ -4,10 +4,6 @@ This is the BEST Messina website. It is built using [Docusaurus](https://docusau
 
 ## How to contribute
 
-### Install Visual Studio Code
-
-It's strongly recommended to install [Visual Studio Code](https://code.visualstudio.com/) to work on this website. It will make thing much easier for you.
-
 ### Installation
 
 To run the website locally, first you need to have `npm` installed.
@@ -64,6 +60,10 @@ node -v # should print `v20.16.0`
 npm -v # should print `10.8.1`
 ```
 </details>
+
+### Install Visual Studio Code
+
+It's strongly recommended to install [Visual Studio Code](https://code.visualstudio.com/) to work on this website. It will make thing much easier for you.
 
 ### Clone this repository
 
