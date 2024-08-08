@@ -110,14 +110,6 @@ The top "navbar", the bottom "footer", and other components that are visible in 
 
 The default language for the website is English, so the above folders contain the English versions of the pages. The website is available also in Italian, and the italian pages are in the folder `i18n/it/`.
 
-For example, if you want to add a new page to the navbar, you will need to:
-1. Create a new Markdown file inside the folder `src/pages`.
-2. Write the content of the page in English (title, text, images, and so on).
-3. Add the item for the new page in the navbar section inside the file `docusaurus.config.js`.
-4. Admire the new page in the local version of the website (see the paragraph on [running the website locally](#run-the-website-locally)).
-5. Add the Italian translation for the navbar item in `i18n/it/code.json` and the page in `i18n/it/docusaurus-plugin-content-pages/`.
-6. Admire the Italian translation in the local version of the website (you will need to run the specific terminal command for Italian).
-
 ## How to make changes
 
 Before making any changes in the repository, make sure to pull the latest version of the website. You can do it in Visual Studio Code in this way:
@@ -134,3 +126,15 @@ To push the changes to GitHub go again to the "Source Control" icon and
 5. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
 
 Be careful, because if other people were working on the same files as you, you may experience conflicts! Conflicts need to be resolved manually and it's better to avoid them.
+
+## Examples
+
+### How to add a new page to the navbar
+
+1. Make sure your version of the website is the most recent one (see the paragraph on [how to make changes](#how-to-make-changes)).
+2. Create a new Markdown file inside the folder `src/pages`.
+3. Write the content of the page in English (title, text, images, and so on).
+4. Add the item for the new page in the navbar section inside the file `docusaurus.config.js`.
+5. Admire the new page in the local version of the website (see the paragraph on [running the website locally](#run-the-website-locally)).
+6. Add the Italian translation for the navbar item in `i18n/it/code.json` and the page in `i18n/it/docusaurus-plugin-content-pages/`.
+7. Admire the Italian translation in the local version of the website (you will need to run the specific terminal command for Italian).
