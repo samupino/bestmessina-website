@@ -107,13 +107,14 @@ or the Italian version with
 npm start -- --locale it
 ```
 
+The above `start` commands will start a process on the terminal that will open up a browser window. The process will keep running in the terminal and if you make changes to the website code while the process is running, the changes will be immediately shown also on the browser window.
+If you want to stop or restart the process, you can kill it by pressing `Ctrl+C` (twice on Windows) in the Terminal window.
+
 If you want to run the full version with all the languages, you need to run this command (it will take longer)
 
 ```bash
 npm run build; npm run serve
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Make changes and push them
 
