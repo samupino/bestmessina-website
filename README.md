@@ -83,26 +83,11 @@ The following steps will let you download this repository on your computer, in a
 
 Also, if you are not a collaborator of the repository, ask the owner to add you, otherwise you will not be able to publish your modifications.
 
-### Make changes and push them
-
-Before making any changes in the repository, make sure to pull the latest version of the website. You can do it in Visual Studio Code in this way:
-1. click on the "Source Control" icon on the left (it is like a small graph with two branches)
-2. click on the 3 dots `...` and then `Pull`
-
-After this, you can make your changes. Remember to save your files with `Ctrl+S`. 
-
-To push the changes to GitHub go again to the "Source Control" icon and
-1. Next to "Changes" click the `+` icon, the changed files have been moved to the "Staged Changes" section and the "Changed" section must be empty.
-2. Choose a message that briefly explains what you changed.
-3. Click "Commit". Congrats, you created your first commit! Now this change will have your name.
-4. Make as many commits as you want.
-5. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
-
-Be careful, because if other people were working on the same files as you, you may experience conflicts! Conflicts need to be resolved manually and it's better to avoid them.
-
 ### Run the website locally
 
-Open the repository folder with Visual Studio Code. Then click on `Terminal` > `New Terminal`.
+If you want to work on the website, you may want to run on your computer a copy of the original website that is on the internet. This will allow you to see the changes that you make to your copy of the website, without affecting the original website hosted on the internet. This is useful because you may make mistakes and you don't want them to be visible to everybody. Also, developing in this way is much faster.
+
+To see a preview of the website directly running on your computer, open the repository folder with Visual Studio Code. Then, on the top, click on `Terminal` > `New Terminal`.
 
 **Only the first time:** run the following command (inside the repository folder) to install the project dependencies
 
@@ -129,3 +114,20 @@ npm run build; npm run serve
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Make changes and push them
+
+Before making any changes in the repository, make sure to pull the latest version of the website. You can do it in Visual Studio Code in this way:
+1. click on the "Source Control" icon on the left (it is like a small graph with two branches)
+2. click on the 3 dots `...` and then `Pull`
+
+After this, you can make your changes. Remember to save your files with `Ctrl+S`. 
+
+To push the changes to GitHub go again to the "Source Control" icon and
+1. Next to "Changes" click the `+` icon, the changed files have been moved to the "Staged Changes" section and the "Changed" section must be empty.
+2. Choose a message that briefly explains what you changed.
+3. Click "Commit". Congrats, you created your first commit! Now this change will have your name.
+4. Make as many commits as you want.
+5. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
+
+Be careful, because if other people were working on the same files as you, you may experience conflicts! Conflicts need to be resolved manually and it's better to avoid them.
