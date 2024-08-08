@@ -102,13 +102,21 @@ npm run build; npm run serve
 
 ## Structure of the repository
 
-The home page is in `/src/pages/index.js`. It's the most complex one because it contains many graphical elements. The other pages are simpler.
+The home page is in `src/pages/index.js` (where `src/pages/` is the folder path and `index.js` is the file name). It is written in Javascript and it's the most complex one because it contains many graphical elements. The other pages are simpler.
 
-The other pages are inside `/src/pages/`. They are written in [MarkDown](https://www.html.it/articoli/markdown-guida-al-linguaggio/), it's a simple way to define titles, images, lists, and other stuff.
+The other pages are inside the folder `src/pages/`. They are written in [MarkDown](https://joplinapp.org/help/apps/markdown/), it's a simple way to define titles, images, lists, and other stuff.
 
-The top "navbar", the bottom "footer", and other components that are visible in every website page are defined inside the file `/docusaurus.config.js`
+The top "navbar", the bottom "footer", and other components that are visible in every website page are defined inside the file `docusaurus.config.js` (do not confuse it with the `.docusaurus` folder, please ignore that folder).
 
-The default language for the website is English, so the above folders contain the English versions of the pages. The website is available also in Italian, and the italian pages are in `/i18n/it/`.
+The default language for the website is English, so the above folders contain the English versions of the pages. The website is available also in Italian, and the italian pages are in the folder `i18n/it/`.
+
+For example, if you want to add a new page to the navbar, you will need to:
+1. Create a new Markdown file inside the folder `src/pages`.
+2. Write the content of the page in English (title, text, images, and so on).
+3. Add the item for the new page in the navbar section inside the file `docusaurus.config.js`.
+4. Admire the new page in the local version of the website (see the paragraph on [running the website locally](#run-the-website-locally)).
+5. Add the Italian translation for the navbar item in `i18n/it/code.json` and the page in `i18n/it/docusaurus-plugin-content-pages/`.
+6. Admire the Italian translation in the local version of the website (you will need to run the specific terminal command for Italian).
 
 ## How to make changes
 
