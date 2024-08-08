@@ -85,20 +85,20 @@ Also, if you are not a collaborator of the repository, ask the owner to add you,
 
 ### Make changes and push them
 
-Before making any change, make sure to pull the latest version of the website. You can do it in Visual Studio Code in this way:
-1. click on the "Source Control" icon on the left (itàs like a small graph with two branches)
+Before making any changes in the repository, make sure to pull the latest version of the website. You can do it in Visual Studio Code in this way:
+1. click on the "Source Control" icon on the left (it is like a small graph with two branches)
 2. click on the 3 dots `...` and then `Pull`
 
-After this, you can make your changes. Remember to save your files with `Ctrl+S`.
+After this, you can make your changes. Remember to save your files with `Ctrl+S`. 
 
 To push the changes to GitHub go again to the "Source Control" icon and
-1. Next to "Changes" click the `+` icon, it the changed files have been moved to the "Staged Changes" section and the "Changed" section must be empty.
+1. Next to "Changes" click the `+` icon, the changed files have been moved to the "Staged Changes" section and the "Changed" section must be empty.
 2. Choose a message that briefly explains what you changed.
 3. Click "Commit". Congrats, you created your first commit! Now this change will have your name.
 4. Make as many commits as you want.
 5. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
 
-Be careful, because if other people were workin on the same files as you, you may experience conflicts! Conflicts need to be resolved manually and it's better to avoid them.
+Be careful, because if other people were working on the same files as you, you may experience conflicts! Conflicts need to be resolved manually and it's better to avoid them.
 
 ### Run the website locally
 
