@@ -1,6 +1,12 @@
 # Website
 
-This is the BEST Messina website. It is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the repository for the BEST Messina website. It is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+
+A repository is a folder containing files. This folder is hosted on GitHub (it's like a Google Drive, but mainly used for code). You can do the following things with a repository:
+
+- Open and read the files it contains.
+- Modify the files.
+- Clone the repository, that means to download a copy of the entire folder on your computer. This will let you make modifications in your computer and then upload (we commonly say "push") them here on GitHub so that everybody can see them.
 
 ## How to contribute
 
@@ -66,6 +72,8 @@ npm -v # should print `10.8.1`
 It's strongly recommended to install [Visual Studio Code](https://code.visualstudio.com/) to work on this website. It will make thing much easier for you.
 
 ### Clone this repository
+
+The following steps will let you download this repository on your computer, in a folder of your choice. This is a preliminary step required if you want to modify the website and see hot it looks like before publishing the changes to the public.
 
 1. Open Visual Studio Code
 2. Click on `Clone Git Repository...`
