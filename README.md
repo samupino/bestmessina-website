@@ -4,6 +4,20 @@ This is the BEST Messina website. It is built using [Docusaurus](https://docusau
 
 ## How to contribute
 
+### Install Visual Studio Code
+
+It's strongly recommended to install [Visual Studio Code](https://code.visualstudio.com/) to work on this website. It will make thing much easier for you.
+
+### Clone this repository
+
+1. Open Visual Studio Code
+2. Click on `Clone Git Repository...`
+3. Select `Clone from GitHub`
+4. Use your GitHub credentials, or register if you don't have an account
+5. Select the name of this repository and choose a destination folder on your computer where the repository will be cloned
+
+Also, if you are not a collaborator of the repository, ask the owner to add you, otherwise you will not be able to publish your modifications.
+
 ### Installation
 
 To run the website locally, first you need to have `npm` installed.
@@ -67,20 +81,6 @@ node -v # should print `v20.16.0`
 npm -v # should print `10.8.1`
 ```
 </details>
-
-### Install Visual Studio Code
-
-It's strongly recommended to install [Visual Studio Code](https://code.visualstudio.com/) to work on this website. It will make thing much easier for you.
-
-### Clone this repository
-
-1. Open Visual Studio Code
-2. Click on `Clone Git Repository...`
-3. Select `Clone from GitHub`
-4. Use your GitHub credentials, or register if you don't have an account
-5. Select the name of this repository and choose a destination folder on your computer where the repository will be cloned
-
-Also, if you are not a collaborator of the repository, ask the owner to add you, otherwise you will not be able to publish your modifications.
 
 ### Make changes and push them
 
