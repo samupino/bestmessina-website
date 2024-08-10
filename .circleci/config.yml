@@ -22,7 +22,7 @@ jobs:
           destination: node-build
       - run:
           name: Install lftp
-          command: sudo apt-get install lftp
+          command: sudo apt-get update && sudo apt-get install lftp
       - run:
           name: deploy
           command: ./scripts/ftp_sync.sh
