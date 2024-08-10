@@ -4,9 +4,10 @@ version: 2.1
 orbs:
   node: circleci/node@5
 jobs:
-  build-node:
+  build-and-deploy:
     # Build node project
     executor: node/default
+    resource_class: small
     steps:
       - checkout
       - node/install-packages:
@@ -16,26 +17,16 @@ jobs:
       - run:
           name: Create the ~/artifacts directory if it doesn't exist
           command: mkdir -p ~/artifacts
-      # Copy output to artifacts dir
-      - run:
-          name: Copy artifacts
-          command: cp -R build dist public .output .next .docusaurus ~/artifacts 2>/dev/null || true
       - store_artifacts:
-          path: ~/artifacts
+          path: ./build
           destination: node-build
-  deploy:
-    # This is an example deploy job, not actually used by the workflow
-    docker:
-      - image: cimg/base:stable
-    steps:
-      # Replace this with steps to deploy to users
+      - run:
+          name: Install lftp
+          command: sudo apt-get install lftp
       - run:
           name: deploy
-          command: '#e.g. ./deploy.sh'
+          command: ./scripts/ftp_sync.sh
 workflows:
-  build:
+  deploy-workflow:
     jobs:
-      - build-node
-    # - deploy:
-    #     requires:
-    #       - build-node
+      - build-and-deploy
