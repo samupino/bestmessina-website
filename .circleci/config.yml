@@ -17,12 +17,15 @@ jobs:
       - run:
           name: Create the ~/artifacts directory if it doesn't exist
           command: mkdir -p ~/artifacts
+      - run: sudo apt-get update
+      - run: sudo apt-get install zip
+      - run: zip -r build.zip ./build
       - store_artifacts:
-          path: ./build
+          path: ./build.zip
           destination: node-build
       - run:
           name: Install lftp
-          command: sudo apt-get update && sudo apt-get install lftp
+          command: sudo apt-get install lftp
       - run:
           name: deploy
           command: ./scripts/ftp_sync.sh
