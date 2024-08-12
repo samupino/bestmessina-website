@@ -154,3 +154,12 @@ The automation runs on [CircleCI](https://circleci.com/), an external online ser
 Every time a new commit is pushed on `master`, a CircleCI workflow will be triggered. The workflow can execute multiple jobs, and this repository defined a job for deployment. You can see the configuration into the [config.yml](./circleci/config.yml) file. If you want to see the details and history of jobs run for this repository, or if you want to inspect a failure, ask to be added as a member of the CircleCI organization.
 
 During the deployment, the communication with TopHost is performed using the FTP protocol. You can see the code in the `/scripts` folder.
+
+This is what the flow looks like
+
+```mermaid
+flowchart  LR
+
+commit("new commit \n pushed on master") -- starts --> circleci("CircleCI \n deploy job")
+circleci -- uploads \n via FTP --> host("website host")
+```
