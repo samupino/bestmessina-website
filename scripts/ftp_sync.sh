@@ -5,7 +5,7 @@ HOST='ftp.bestmessina.org'
 USER=$FTP_USER
 PASS=$FTP_PASSWORD
 SERVERFOLDER='/htdocs'
-PCFOLDER='./build'
+PCFOLDER='/home/circleci/project/build'
 CopyMoreThanOneFileSimultaneously="--parallel=10"
 
 CopyServerdataToLocal=0 # 0=Upload, 1=Download

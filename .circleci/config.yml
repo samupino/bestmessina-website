@@ -13,21 +13,21 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
       - run:
+          name: Building the website
           command: npm run build
       - run:
-          name: Create the ~/artifacts directory if it doesn't exist
-          command: mkdir -p ~/artifacts
-      - run: sudo apt-get update
-      - run: sudo apt-get install zip
-      - run: zip -r build.zip ./build
+          name: Creating an archive with the build output
+          command: zip -r build.zip ./build
       - store_artifacts:
           path: ./build.zip
           destination: node-build
       - run:
-          name: Install lftp
-          command: sudo apt-get install lftp
+          name: Installing the deployment tool
+          command: |
+            sudo apt-get update
+            sudo apt-get install lftp
       - run:
-          name: deploy
+          name: Deploying
           command: ./scripts/ftp_sync.sh
 workflows:
   deploy-workflow:
