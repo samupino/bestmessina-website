@@ -4,7 +4,7 @@
 # This Script synchronizes a folder in a remote computer with a local folder.
 # In practice, the remote folder will be updated to match the local one, performing only the minimum changes
 # required for the synchronization (for example, if a file already exists it will not upload it again).
-# The script uses the FTP protocol, very commonly used and supported by TopHost.
+# The script uses the FTP protocol, very commonly used and supported by the website host.
 
 HOST='ftp.bestmessina.org'
 USER=$FTP_USER
