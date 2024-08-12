@@ -138,3 +138,19 @@ Be careful, because if other people were working on the same files as you, you m
 5. Admire the new page in the local version of the website (see the paragraph on [running the website locally](#run-the-website-locally)).
 6. Add the Italian translation for the navbar item in `i18n/it/code.json` and the page in `i18n/it/docusaurus-plugin-content-pages/`.
 7. Admire the Italian translation in the local version of the website (you will need to run the specific terminal command for Italian).
+
+## Automatic deployment
+
+The "deployment" is the act of publishing the website to the internet. In the previou steps, you have leaarned how to make changes to your local vesion of the website and see them by "running the website locally". However, these changes will be visible only to you and to the other developers that clone the repository as you did. If you navigate to the real website URL you will not see yout changes yet. This is to let you develop the website without others see your half-done work.
+
+When you are satisfied with your changes, you need to "deploy" the new version of the website, so that the changes are applied to the real URL. This repository performs automatic deployment every time you push a new commit on the `master` branch. The deployment takes about 2-3 minutes, and you can see if it succeded or failed as a green check mark in the [commits list](https://github.com/samupino/bestmessina-website/commits/master/).
+
+Keep in mind that we have a limit of around 2000 free automatic deployments per month. They should be more than enough, but consider that we have no control over this number and it may be reduced in the future.
+
+### How does the automation work
+
+The automation runs on [CircleCI](https://circleci.com/), an external online service that can be connected to a GitHub repository.
+
+Every time a new commit is pushed on `master`, a CircleCI workflow will be triggered. The workflow can execute multiple jobs, and this repository defined a job for deployment. You can see the configuration into the [config.yml](./circleci/config.yml) file. If you want to see the details and history of jobs run for this repository, or if you want to inspect a failure, ask to be added as a member of the CircleCI organization.
+
+During the deployment, the communication with TopHost is performed using the FTP protocol. You can see the code in the `/scripts` folder.

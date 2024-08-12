@@ -1,6 +1,11 @@
 #!/bin/bash
-# Michael Hutter, 20.11.2021
-# This Script can be used to synchronize a remote FTP directory and a local directory
+# cretids: Michael Hutter, 20.11.2021
+
+# This Script synchronizes a folder in a remote computer with a local folder.
+# In practice, the remote folder will be updated to match the local one, performing only the minimum changes
+# required for the synchronization (for example, if a file already exists it will not upload it again).
+# The script uses the FTP protocol, very commonly used and supported by TopHost.
+
 HOST='ftp.bestmessina.org'
 USER=$FTP_USER
 PASS=$FTP_PASSWORD
