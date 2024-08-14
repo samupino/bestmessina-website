@@ -65,6 +65,13 @@ The following steps will let you download this repository on your computer, in a
 4. Use your GitHub credentials, or register if you don't have an account
 5. Select the name of this repository and choose a destination folder on your computer where the repository will be cloned
 
+Then run the following commands in the terminal, putting your name and email
+
+```bash
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR EMAIL"
+```
+
 Also, if you are not a collaborator of the repository, ask the owner to add you, otherwise you will not be able to publish your modifications.
 
 ## Run the website locally
