@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -70,15 +70,37 @@ const config = {
           {
             type: 'dropdown',
             label: "Scopri BEST",
-            position: 'left',
+            position: 'right',
             items: [
               {
                 to: 'identity',
                 label: 'Our identity',
               },
+
+              {
+                to: 'services',
+                label: 'Services',
+              },
             ]
           },
-          
+
+          {
+            type: 'dropdown',
+            label: "Contact us",
+            position: 'right',
+            items: [
+              {
+                to: 'join_us',
+                label: 'Join us',
+              },
+
+              {
+                to: 'Collaborate_with_us',
+                label: 'Collaborate with us',
+              }
+            ]
+          },
+
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
