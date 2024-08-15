@@ -25,6 +25,7 @@ Copy the following command on the PowerShell and run it pressing Enter
 # installs fnm (Fast Node Manager)
 winget install Schniz.fnm
 ```
+
 When it finishes, close the PowerShell and reopen it as administrator.
 
 Then copy the following commands to the PowerShell and run them pressing Enter
@@ -49,6 +50,7 @@ node -v # should print `v20.16.0`
 # verifies the right npm version is in the environment
 npm -v # should print `10.8.1`
 ```
+
 </details>
 
 ## Install Visual Studio Code
@@ -58,6 +60,7 @@ We strongly recommended to install [Visual Studio Code](https://code.visualstudi
 > [!TIP]
 >
 > To encourage consistent formatting of the documents, we recommend:
+>
 > - installing the [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and
 > - enabling the option ⚙️ > `Settings` > `Editor: Format On Save`.
 
@@ -126,19 +129,22 @@ The default language for the website is English, so the above folders contain th
 ## How to make changes
 
 Before making any changes in the repository, make sure to pull the latest version of the website. You can do it in Visual Studio Code in this way:
+
 1. click on the "Source Control" icon on the left (it is like a small graph with two branches)
 2. click on the 3 dots `...` and then `Pull`
 
-After this, you can make your changes. Remember to save your files with `Ctrl+S`. 
+After this, you can make your changes. Remember to save your files with `Ctrl+S`.
 
-To push the changes to GitHub go again to the "Source Control" icon and
-1. Next to "Changes" click the `+` icon, the changed files have been moved to the "Staged Changes" section and the "Changed" section must be empty.
-2. Choose a message that briefly explains what you changed.
-3. Click "Commit". Congrats, you created your first commit! Now this change will have your name.
-4. Make as many commits as you want.
-5. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
+To push the changes to GitHub go again to the "Source Control" icon. Here you will see all the files that you have changed.
 
-Be careful, because if other people were working on the same files as you, you may experience conflicts! Conflicts need to be resolved manually and it's better to avoid them.
+1. Click the `+` icon to stage all the files in the "Changes" section, they will move to the "Staged Changes" section.
+2. At the top, write a short message to explain what you changed (e.g. "update courses page"). Then press Enter or click on the "Commit" button.
+3. Make as many commits as you want.
+4. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
+
+> [!WARNING]
+>
+> Make commits frequently! If other people are working on the same files, you may experience conflicts and lose the changes that you haven't committed.
 
 ## Examples
 
