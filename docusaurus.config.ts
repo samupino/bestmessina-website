@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "BEST Messina",
-  tagline: "Dinosaurs are cool",
+  tagline: "Learn. Travel. Connect.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -70,10 +70,9 @@ const config: Config = {
       },
       items: [
         {
-          type: "dropdown",
           label: "Home",
+          to: "/",
           position: "right",
-          items: [],
         },
 
         {
@@ -130,50 +129,36 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Contact us",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "messina@best-eu.org",
+              href: "mailto:messina@best-eu.org",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Instagram",
+              href: "https://www.instagram.com/bestmessina/",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
+              label: "Facebook",
+              href: "https://www.facebook.com/LocalBESTGroupMessina/",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/best-messina",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BEST Messina, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
 };
