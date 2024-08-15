@@ -13,26 +13,24 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "bestmessina", // Usually your GitHub org/user name.
-  projectName: "website", // Usually your repo name.
-
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en", "it"],
     localeConfigs: {
       en: {
         htmlLang: "en-GB",
-        label: "🇬🇧",
+        // On macOS and Android devices this label is visualized as the Englad flag.
+        // On Windows it is visualized as the country code "EN".
+        // It would be more correct to have the UK flag, however, on Windows it is
+        // visualized as "GB", which is not immediately recognizable as a language.
+        label: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       },
       it: {
+        // On macOS and Android devices this label is visualized as the Italy flag.
+        // On Windows it is visualized as the country code "IT".
         label: "🇮🇹",
       },
     },
