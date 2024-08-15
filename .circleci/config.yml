@@ -1,0 +1,59 @@
+# CircleCI stuff, you can ignore it
+version: 2.1
+orbs:
+  node: circleci/node@5
+
+# The jobs that can be run in a workflow
+jobs:
+
+  # A job that builds the website and deploys it to the internet
+  build-and-deploy:
+    executor: node/default
+    resource_class: small
+    steps:
+      # Clone the repository into the CircleCI machine running the job
+      - checkout
+
+      # Install the dependencies to build the website
+      - node/install-packages:
+          pkg-manager: npm
+
+      - run:
+          name: Building the website
+          command: npm run build
+
+      # Create a zip archive with the built website and upload it to the CircleCI artifacts.
+      # This is useful because you can download the zip from the CircleCI website, in the job
+      # page, at the artifacts section. You can use it for debugging or whatever.
+      - run:
+          name: Creating an archive with the build output
+          command: zip -r build.zip ./build
+      - store_artifacts:
+          path: ./build.zip
+          destination: node-build
+
+      # Deploy the built website to the internet, using a custom script in this repository.
+      - run:
+          name: Installing the deployment tool
+          command: |
+            sudo apt-get update
+            sudo apt-get install lftp
+      - run:
+          name: Deploying
+          command: ./scripts/ftp_sync.sh
+
+# Workflows contain collections of job to be run.
+workflows:
+
+  # We have only one workflow, that contains only one job. Simple.
+  deploy-workflow:
+    jobs:
+      - build-and-deploy:
+          # We wan to run this job only for the commits on the "master" branch.
+          # This is important, because if you allow deploying from multiple branches
+          # the website will be updated with versions that are half done and that
+          # do not contain the latest changes. Not what you want!
+          filters:
+            branches:
+              only:
+                - master
