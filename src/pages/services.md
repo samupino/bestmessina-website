@@ -27,8 +27,6 @@ The hackathon is a "marathon" in which computer programmers and others are invol
 The goal of a hackathon is to create functioning software or hardware by the
 end of the event, in order to solve a real problem or a case study in the best way possible.
 
-Development comes together with innovation and that's why we will always encourage and support innovative ideas.
-
 # Career Support
 
 Through BEST Career Support you will have a close contact with our partners, you will be able to discover a new and exciting future and start an international career.
