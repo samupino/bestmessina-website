@@ -30,6 +30,10 @@ const config: Config = {
     localeConfigs: {
       en: {
         htmlLang: "en-GB",
+        label: "🇬🇧",
+      },
+      it: {
+        label: "🇮🇹",
       },
     },
   },

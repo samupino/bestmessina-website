@@ -18,19 +18,24 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/** Blog posts author picture. */
+/* Disable the localization icon of the localeDropdown in the navbar. */
+.navbar__link svg {
+  display: none;
+}
+
+/* Blog posts author picture. */
 html.plugin-blog .avatar__photo {
   width: 2.5rem;
   height: 2.5rem;
 }
 
-/** Blog posts title. */
+/* Blog posts title. */
 html.plugin-blog h2, 
 html.plugin-blog.blog-post-page h1 {
     font-size: 2rem;
 }
 
-/** Blog posts date text. */
+/* Blog posts date text. */
 html.plugin-blog time {
     font-style: italic;
 }
