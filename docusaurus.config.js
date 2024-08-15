@@ -67,9 +67,17 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+
           {
             type: 'dropdown',
-            label: "Scopri BEST",
+            label: "Home",
+            position: 'right',
+            items: []
+          },
+
+          {
+            type: 'dropdown',
+            label: "Discover BEST",
             position: 'right',
             items: [
               {
@@ -80,6 +88,16 @@ const config = {
               {
                 to: 'services',
                 label: 'Services',
+              },
+
+              {
+                to: 'travel_with_best',
+                label: 'Travel with BEST',
+              },
+
+              {
+                to: 'the_motivation_letter',
+                label: 'The Motivation Letter',
               },
             ]
           },
@@ -99,14 +117,9 @@ const config = {
                 label: 'Collaborate with us',
               }
             ]
+
           },
 
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {
             type: 'localeDropdown',
             position: 'right',
