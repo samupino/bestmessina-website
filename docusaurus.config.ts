@@ -64,7 +64,7 @@ const config: Config = {
       title: "BEST Messina",
       logo: {
         alt: "BEST Messina Logo",
-        src: "img/logo.svg",
+        src: "img/logomark_best.svg",
       },
       items: [
         {
