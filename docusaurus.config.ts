@@ -22,16 +22,10 @@ const config: Config = {
     localeConfigs: {
       en: {
         htmlLang: "en-GB",
-        // On macOS and Android devices this label is visualized as the Englad flag.
-        // On Windows it is visualized as the country code "EN".
-        // It would be more correct to have the UK flag, however, on Windows it is
-        // visualized as "GB", which is not immediately recognizable as a language.
-        label: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        label: "ᴇɴ",
       },
       it: {
-        // On macOS and Android devices this label is visualized as the Italy flag.
-        // On Windows it is visualized as the country code "IT".
-        label: "🇮🇹",
+        label: "ɪᴛ",
       },
     },
   },
