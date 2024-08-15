@@ -138,7 +138,7 @@ After this, you can make your changes. Remember to save your files with `Ctrl+S`
 To push the changes to GitHub go again to the "Source Control" icon. Here you will see all the files that you have changed.
 
 1. Click the `+` icon to stage all the files in the "Changes" section, they will move to the "Staged Changes" section.
-2. At the top, write a short message to explain what you changed (e.g. "update courses page"). Then press Enter or click on the "Commit" button.
+2. At the top, write a short message to explain what you changed (e.g. "update courses page"). Then click on the "Commit" button.
 3. Make as many commits as you want.
 4. When you are satisfied, push the commits to GitHub with `Sync Changes`. In this way, also the others will be able to see them!
 
