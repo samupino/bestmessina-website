@@ -41,10 +41,6 @@ const config: Config = {
         docs: false,
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -98,6 +94,12 @@ const config: Config = {
               label: "The Motivation Letter",
             },
           ],
+        },
+
+        {
+          to: '/blog',
+          label: 'News',
+          position: 'right'
         },
 
         {
