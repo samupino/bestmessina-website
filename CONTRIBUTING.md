@@ -55,6 +55,12 @@ npm -v # should print `10.8.1`
 
 We strongly recommended to install [Visual Studio Code](https://code.visualstudio.com/) to work on this website. It will make the development much easier for you.
 
+> [!TIP]
+>
+> To encourage consistent formatting of the documents, we recommend:
+> - installing the [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and
+> - enabling the option ⚙️ > `Settings` > `Editor: Format On Save`.
+
 ## Clone this repository
 
 The following steps will let you download this repository on your computer, in a folder of your choice. This is a preliminary step required if you want to modify the website and see hot it looks like before publishing the changes to the public.
