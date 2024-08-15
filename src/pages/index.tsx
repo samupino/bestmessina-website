@@ -3,6 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageCards from "@site/src/components/HomepageCards";
+import HomepageStats from "@site/src/components/HomepageStats";
 import Heading from "@theme/Heading";
 
 import styles from "@site/src/css/index.module.css";
@@ -40,6 +41,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageCards />
+        <HomepageStats />
       </main>
     </Layout>
   );
