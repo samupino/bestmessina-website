@@ -1,18 +1,50 @@
 {
   "logo.alt": {
-    "message": "BEST Mesina Logo",
+    "message": "Logo di BEST Messina",
     "description": "The alt text of navbar logo"
-  },
-  "item.label.Scopri BEST": {
-    "message": "Scopri BEST",
-    "description": "Navbar item with label Scopri BEST"
-  },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
   },
   "item.label.Our identity": {
     "message": "La nostra identità",
     "description": "Navbar item with label Our identity"
+  },
+  "title": {
+    "message": "BEST Messina",
+    "description": "The title in the navbar"
+  },
+  "item.label.Home": {
+    "message": "Home",
+    "description": "Navbar item with label Home"
+  },
+  "item.label.Discover BEST": {
+    "message": "Scopri BEST",
+    "description": "Navbar item with label Discover BEST"
+  },
+  "item.label.News": {
+    "message": "News",
+    "description": "Navbar item with label News"
+  },
+  "item.label.Contact us": {
+    "message": "Contattaci",
+    "description": "Navbar item with label Contact us"
+  },
+  "item.label.Services": {
+    "message": "Servizi",
+    "description": "Navbar item with label Services"
+  },
+  "item.label.Travel with BEST": {
+    "message": "Viaggia con BEST",
+    "description": "Navbar item with label Travel with BEST"
+  },
+  "item.label.The Motivation Letter": {
+    "message": "La Motivation Letter",
+    "description": "Navbar item with label The Motivation Letter"
+  },
+  "item.label.Join us": {
+    "message": "Unisciti a noi",
+    "description": "Navbar item with label Join us"
+  },
+  "item.label.Collaborate with us": {
+    "message": "Collabora con noi",
+    "description": "Navbar item with label Collaborate with us"
   }
 }
