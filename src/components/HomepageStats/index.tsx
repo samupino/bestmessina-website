@@ -16,12 +16,12 @@ const StatsList: StatItem[] = [
   {
     value: 96,
     text: "local groups",
-    Svg: require("@site/static/img/graduation_hat.svg").default,
+    Svg: require("@site/static/img/group.svg").default,
   },
   {
     value: 3000,
     text: "students",
-    Svg: require("@site/static/img/plane.svg").default,
+    Svg: require("@site/static/img/graduation_hat.svg").default,
   },
 ];
 

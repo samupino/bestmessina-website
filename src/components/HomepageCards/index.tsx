@@ -11,7 +11,7 @@ type CardItem = {
 const CardsList: CardItem[] = [
   {
     title: "Our identity",
-    Svg: require("@site/static/img/europe.svg").default,
+    Svg: require("@site/static/img/graduation_hat_gear.svg").default,
     description: (
       <>
         BEST - Board of European Students of Technology, is a non-profit and
@@ -22,7 +22,7 @@ const CardsList: CardItem[] = [
   },
   {
     title: "Connecting students and companies",
-    Svg: require("@site/static/img/graduation_hat.svg").default,
+    Svg: require("@site/static/img/link.svg").default,
     description: (
       <>
         Expand your career horizons. Build your international network and get in
