@@ -9,6 +9,10 @@
   position: relative;
   overflow: hidden;
   min-height: 500px;
+  background-image: url("/img/sunset_hug.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 996px) {

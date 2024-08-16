@@ -11,14 +11,7 @@ import styles from "@site/src/css/index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header
-      className={clsx("hero hero--primary", styles.heroBanner)}
-      style={{
-        backgroundImage: `url('/img/sunset_hug.jpg')`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
