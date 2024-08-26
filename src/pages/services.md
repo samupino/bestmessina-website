@@ -1,6 +1,6 @@
 # BEST Courses
 
-![](./courses.jpg)
+![](./bracelets.jpg)
 
 Complement your knowledge in different fields of study
 Visiting companies, industrial plants and research centers
