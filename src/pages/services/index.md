@@ -1,17 +1,20 @@
-# BEST Courses
+# Services
 
-![](./bracelets.jpg)
+## BEST Courses
 
-Complement your knowledge in different fields of study
-Visiting companies, industrial plants and research centers
-Participate in case studies
-Take interesting lessons covering different fields of technology, economics, marketing and management
-Receive ECTS credits in recognized courses
+![](./courses.jpg)
+
+- Complement your knowledge in different fields of study
+- Visiting companies, industrial plants and research centers
+- Participate in case studies
+- Take interesting lessons covering different fields of technology, economics, marketing and management
+- Receive ECTS credits in recognized courses
+
 In these events, participants attend lectures given by university lecturers or by experts from companies. At the end of the course, students take an exam, which is designed to assess the success of the participants.
 
 A BEST course is an optimized event and should meet these general criteria: provide participants with new knowledge or skills, taught by professionals. The BEST courses on technology, BEST courses on career skills and BEST courses on applied engineering are subtypes.
 
-# Competitions
+## Competitions
 
 ![](./ebec.jpg)
 
@@ -31,7 +34,7 @@ The hackathon is a "marathon" in which computer programmers and others are invol
 The goal of a hackathon is to create functioning software or hardware by the
 end of the event, in order to solve a real problem or a case study in the best way possible.
 
-# Career Support
+## Career Support
 
 ![](./jobshop.jpg)
 
