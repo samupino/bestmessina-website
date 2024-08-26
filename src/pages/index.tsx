@@ -3,6 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageCards from "@site/src/components/HomepageCards";
+import HomepageStats from "@site/src/components/HomepageStats";
 import Heading from "@theme/Heading";
 
 import styles from "@site/src/css/index.module.css";
@@ -10,14 +11,7 @@ import styles from "@site/src/css/index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header
-      className={clsx("hero hero--primary", styles.heroBanner)}
-      style={{
-        backgroundImage: `url('/img/sunset_hug.jpg')`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -40,6 +34,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageCards />
+        <HomepageStats />
       </main>
     </Layout>
   );

@@ -109,7 +109,7 @@ const config: Config = {
             },
 
             {
-              to: "Collaborate_with_us",
+              to: "collaborate_with_us",
               label: "Collaborate with us",
             },
           ],

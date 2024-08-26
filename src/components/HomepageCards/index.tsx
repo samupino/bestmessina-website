@@ -8,10 +8,10 @@ type CardItem = {
   description: JSX.Element;
 };
 
-const FeatureList: CardItem[] = [
+const CardsList: CardItem[] = [
   {
     title: "Our identity",
-    Svg: require("@site/static/img/europe.svg").default,
+    Svg: require("@site/static/img/graduation_hat_gear.svg").default,
     description: (
       <>
         BEST - Board of European Students of Technology, is a non-profit and
@@ -22,7 +22,7 @@ const FeatureList: CardItem[] = [
   },
   {
     title: "Connecting students and companies",
-    Svg: require("@site/static/img/graduation_hat.svg").default,
+    Svg: require("@site/static/img/link.svg").default,
     description: (
       <>
         Expand your career horizons. Build your international network and get in
@@ -46,7 +46,7 @@ function Card({ title, Svg, description }: CardItem) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className={styles.cardSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -58,10 +58,10 @@ function Card({ title, Svg, description }: CardItem) {
 
 export default function HomepageCards(): JSX.Element {
   return (
-    <section className={styles.features}>
+    <section className={styles.cards}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {CardsList.map((props, idx) => (
             <Card key={idx} {...props} />
           ))}
         </div>
