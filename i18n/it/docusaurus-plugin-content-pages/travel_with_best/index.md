@@ -1,4 +1,6 @@
-# I CORSI BEST
+# Parti con BEST
+
+## I Corsi BEST
 
 Ogni anno i diversi gruppi BEST locali sparsi per l’Europa organizzano un corso, della durata di circa una settimana. Tali corsi possono svolgersi in 4 fondamentali periodi dell’anno, a discrezione del gruppo organizzatore, ed in pieno rispetto delle regole di BEST: Autumn, Winter, Spring, Summer. Ecco cosa questi corsi ti offrono:
 
