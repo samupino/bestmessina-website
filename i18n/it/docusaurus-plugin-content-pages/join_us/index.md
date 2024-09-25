@@ -1,6 +1,8 @@
 # Unisciti a noi
 
-Diventa parte della famiglia di BEST Messina, un'associazione con la quale puoi crescere dal punto di vista formativo, partecipando ad attività come EBEC e ai corsi offerti dai diversi gruppi locali di tutta Europa!
+Diventa parte della famiglia di BEST Messina, un'associazione con la quale potrai crescere dal punto di vista umano e professionale.
+
+Cosa aspetti? Partecipa alle nostre competizioni e ai corsi offerti dai diversi gruppi locali di tutta Europa!
 
 Contattaci a:
 

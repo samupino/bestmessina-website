@@ -1,6 +1,8 @@
 # Join us
 
-Become part of the BEST Messina family, an association with which you can grow from a training point of view, participating in activities such as EBEC and the courses offered by different local groups from all over Europe!
+Become part of the BEST Messina family, an association with which you can grow from both a human and professional point of view.
+
+What are you waiting for? Take part in our competitions and in the courses offered by different local groups from all over Europe!
 
 Contact us at:
 
