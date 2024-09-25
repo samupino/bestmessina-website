@@ -10,17 +10,17 @@ type StatItem = {
 const StatsList: StatItem[] = [
   {
     value: 30,
-    text: "countries",
+    text: "paesi",
     Svg: require("@site/static/img/europe.svg").default,
   },
   {
     value: 84,
-    text: "local groups",
+    text: "gruppi locali",
     Svg: require("@site/static/img/group.svg").default,
   },
   {
     value: 3000,
-    text: "students",
+    text: "studenti",
     Svg: require("@site/static/img/graduation_hat.svg").default,
   },
 ];

@@ -10,34 +10,33 @@ type CardItem = {
 
 const CardsList: CardItem[] = [
   {
-    title: "La nostra identità",
+    title: "Our identity",
     Svg: require("@site/static/img/graduation_hat_gear.svg").default,
     description: (
       <>
-        BEST - Board of European Students of Technology, è un'organizzazione
-        non-profit e apolitica. Dal 1989 offriamo opportunità di comunicazione,
-        cooperazione e scambio per studenti di tutta Europa.
+        BEST - Board of European Students of Technology, is a non-profit and
+        non-political organization. Since 1989 we provide communication,
+        co-operation and exchange possibilities for students all over Europe.
       </>
     ),
   },
   {
-    title: "Connettere studenti e aziende",
+    title: "Connecting students and companies",
     Svg: require("@site/static/img/link.svg").default,
     description: (
       <>
-        Espandi i tuoi orizzonti professionali. Costruisci la tua rete
-        internazionale e entra in contatto con i nostri partner.
+        Expand your career horizons. Build your international network and get in
+        touch with our partners.
       </>
     ),
   },
   {
-    title: "Esci dalla tua comfort zone",
+    title: "Get out of your comfort zone",
     Svg: require("@site/static/img/plane.svg").default,
     description: (
       <>
-        Viaggia e fai nuove amicizie in tutta Europa. Acquisisci una mentalità
-        internazionale e sviluppa le tue competenze in un ambiente culturalmente
-        diversificato.
+        Travel and make new friends all around Europe. Achieve an international
+        mindset and develop your skills in a culturally diverse environment.
       </>
     ),
   },
