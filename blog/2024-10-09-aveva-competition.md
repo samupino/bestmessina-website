@@ -14,4 +14,4 @@ Participate in digital sustainability categories: AI, Edge Computing, Visualizat
 
 Showcase your innovation and support AVEVA to help the industrial world meet low-carbon goals.
 
-⏰ Apply before November 4, 2024
+⏰ Apply before November 4, 2024 👉 [click here](https://aveva.agorize.com/challenges/ecotech-emerge?t=k9H4S6yvXoet0yRldhgHOQ&utm_source=ambassadors&utm_medium=affiliate&utm_campaign=messina)!
