@@ -13,9 +13,13 @@ Partecipa alle varie categorie di sostenibilità digitale: AI, Edge Computing, V
 🏆 I vincitori riceveranno fino a £ 10.000 e potenziali #stage!
 
     Vinci fantastici premi:
+
     🥇 1° Team: £10,000
+
     🥈 2° Team: £7,500
+
     🥉 3° Team: £5,000
+
     In più in palio anche possibili stage!
 
 Mostra la tua innovazione e sostieni AVEVA per aiutare il mondo industriale a raggiungere gli obiettivi di riduzione delle emissioni di carbonio.
