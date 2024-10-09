@@ -10,7 +10,13 @@ tags: [Competitions]
 
 Participate in digital sustainability categories: AI, Edge Computing, Visualization, and all other tech.
 
-🏆 Winners will receive up to £10,000 and potential #internships!
+🏆 Winners will receive up to £10,000 and chance of internships!
+
+    Win amazing prizes:
+    🥇 First Team: £10,000
+    🥈 Second Team: £7,500
+    🥉 Third Team: £5,000
+    Plus potential for an #internship
 
 Showcase your innovation and support AVEVA to help the industrial world meet low-carbon goals.
 
