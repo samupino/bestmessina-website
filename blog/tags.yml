@@ -1,3 +1,7 @@
 courses:
   permalink: /courses
   description: BEST seasonal courses
+
+competitions:
+  permalink: /competitions
+  description: BEST competitions
