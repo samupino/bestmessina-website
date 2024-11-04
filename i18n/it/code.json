@@ -313,5 +313,23 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "Questa pagina è una bozza. Sarà visibile in dev e sarà esclusa dalle build per production.",
     "description": "The draft content banner message"
+  },
+  "Our identity": {
+    "message": "La nostra identità"
+  },
+  "homepage.cards.our_identity_body": {
+    "message": "BEST - Board of European Students of Technology, è un'organizzazione non-profit e apolitica. Dal 1989 offriamo opportunità di comunicazione, cooperazione e scambio per studenti di tutta Europa."
+  },
+  "We connect students and companies": {
+    "message": "Connettiamo studenti e aziende"
+  },
+  "homepage.cards.connections_body": {
+    "message": "Espandi i tuoi orizzonti professionali. Costruisci la tua rete internazionale e entra in contatto con i nostri partner."
+  },
+  "Get out of your comfort zone": {
+    "message": "Esci dalla tua comfort zone"
+  },
+  "homepage.cards.comfort_zone_body": {
+    "message": "Viaggia e fai nuove amicizie in tutta Europa. Acquisisci una mentalità internazionale e sviluppa le tue competenze in un ambiente culturalmente diversificato."
   }
 }

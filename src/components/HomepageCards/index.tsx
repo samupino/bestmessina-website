@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import Translate, { translate } from "@docusaurus/Translate";
 
 type CardItem = {
   title: string;
@@ -10,35 +11,40 @@ type CardItem = {
 
 const CardsList: CardItem[] = [
   {
-    title: "La nostra identità",
+    title: translate({
+      message: "Our identity",
+    }),
     Svg: require("@site/static/img/graduation_hat_gear.svg").default,
     description: (
-      <>
-        BEST - Board of European Students of Technology, è un'organizzazione
-        non-profit e apolitica. Dal 1989 offriamo opportunità di comunicazione,
-        cooperazione e scambio per studenti di tutta Europa.
-      </>
+      <Translate id="homepage.cards.our_identity_body">
+        BEST - Board of European Students of Technology, is a no-profit,
+        apolitical organization. Since 1989 we offer communication, cooperation,
+        and exchange opportunities to students from all around Europe.
+      </Translate>
     ),
   },
   {
-    title: "Connettere studenti e aziende",
+    title: translate({
+      message: "We connect students and companies",
+    }),
     Svg: require("@site/static/img/link.svg").default,
     description: (
-      <>
-        Espandi i tuoi orizzonti professionali. Costruisci la tua rete
-        internazionale e entra in contatto con i nostri partner.
-      </>
+      <Translate id="homepage.cards.connections_body">
+        Expand your professional horizons. Build your international network and
+        connect with our partners.
+      </Translate>
     ),
   },
   {
-    title: "Esci dalla tua comfort zone",
+    title: translate({
+      message: "Get out of your comfort zone",
+    }),
     Svg: require("@site/static/img/plane.svg").default,
     description: (
-      <>
-        Viaggia e fai nuove amicizie in tutta Europa. Acquisisci una mentalità
-        internazionale e sviluppa le tue competenze in un ambiente culturalmente
-        diversificato.
-      </>
+      <Translate id="homepage.cards.comfort_zone_body">
+        Travel and make new friends across Europe. Gain an international mindset
+        and develop your skills in a culturally diverse environment.
+      </Translate>
     ),
   },
 ];
