@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import Translate, { translate } from "@docusaurus/Translate";
 
 type StatItem = {
   value: number;
@@ -10,17 +11,17 @@ type StatItem = {
 const StatsList: StatItem[] = [
   {
     value: 30,
-    text: "countries",
+    text: translate({ message: "countries" }),
     Svg: require("@site/static/img/europe.svg").default,
   },
   {
     value: 84,
-    text: "local groups",
+    text: translate({ message: "local groups" }),
     Svg: require("@site/static/img/group.svg").default,
   },
   {
     value: 3000,
-    text: "students",
+    text: translate({ message: "students" }),
     Svg: require("@site/static/img/graduation_hat.svg").default,
   },
 ];

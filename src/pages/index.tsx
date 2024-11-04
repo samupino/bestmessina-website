@@ -5,6 +5,7 @@ import Layout from "@theme/Layout";
 import HomepageCards from "@site/src/components/HomepageCards";
 import HomepageStats from "@site/src/components/HomepageStats";
 import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
 
 import styles from "@site/src/css/index.module.css";
 
@@ -19,7 +20,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="join_us">
-            Join us
+            <Translate id="home.button.join_us">Join us</Translate>
           </Link>
         </div>
       </div>

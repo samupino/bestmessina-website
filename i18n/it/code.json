@@ -331,5 +331,17 @@
   },
   "homepage.cards.comfort_zone_body": {
     "message": "Viaggia e fai nuove amicizie in tutta Europa. Acquisisci una mentalità internazionale e sviluppa le tue competenze in un ambiente culturalmente diversificato."
+  },
+  "home.button.join_us": {
+    "message": "Unisciti a noi"
+  },
+  "countries": {
+    "message": "paesi"
+  },
+  "local groups": {
+    "message": "gruppi locali"
+  },
+  "students": {
+    "message": "studenti"
   }
 }
