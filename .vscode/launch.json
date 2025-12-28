@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm start",
+            "name": "Start website (English)",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm start -- --locale it",
+            "name": "Start website (Italian)",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run build; npm run serve",
+            "name": "Build and start (all languages)",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
