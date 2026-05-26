@@ -9,7 +9,7 @@ jobs:
   # A job that builds the website and deploys it to the internet
   build-and-deploy:
     executor: node/default
-    resource_class: small
+    resource_class: medium
     steps:
       # Clone the repository into the CircleCI machine running the job
       - checkout
