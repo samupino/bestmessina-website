@@ -1,10 +1,10 @@
 ---
-title: Apertura iscrizioni ai BEST Courses primaverili 2023
+title: Apertura iscrizioni ai BEST Courses autunnali 2020
 authors: samuele
 tags: [courses]
 ---
 
-L’Associazione Universitaria BEST Messina comunica che sono aperte le iscrizioni per i BEST Courses per la stagione primaverile 2023, che si terranno nel periodo tra marzo e giugno.
+L’Associazione Universitaria BEST Messina comunica che sono aperte le iscrizioni per i BEST Courses per la stagione autunnale 2020, che si terranno nel periodo tra settembre e dicembre.
 
 <!--truncate-->
 
@@ -24,6 +24,6 @@ Lo stesso accade da anni a Messina, dove grazie anche al supporto dell’Ateneo 
 
 Possono partecipare ai BEST Courses tutti gli studenti iscritti ai corsi e ai dottorati dei dipartimenti scientifico-tecnologici.
 
-La scadenza per fare domanda di partecipazione ai corsi primaverili è fissata al 27 novembre.
+La scadenza per fare domanda di partecipazione ai corsi autunnali è fissata al 27 settembre.
 
-Ben 10 città d’Europa ospiteranno un BEST Course durante la prossima primavera, tra cui Parigi, Atene, Bruxelles, Grenoble, Lyon, Morstar, Torino, Valencia. L’elenco completo è disponibile sul sito www.best.eu.org/courses/list.jsp . Per maggiori informazioni visitare il sito www.bestmessina.org, scrivere a messina@BEST-eu.org o contattare la pagina Facebook e Instagram di BEST Messina.
+3 città d’Europa ospiteranno un BEST Course durante la prossima stagione autunnale, tra cui Istanbul Yildiz, Ankara e Stand-alone event. L’elenco completo è disponibile sul sito www.best.eu.org/courses/list.jsp . Per maggiori informazioni visitare il sito www.bestmessina.org, scrivere a messina@BEST-eu.org o contattare la pagina Facebook e Instagram di BEST Messina.

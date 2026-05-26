@@ -1,10 +1,10 @@
 ---
-title: Applications open for the BEST Courses in Spring 2023
+title: Applications open for the BEST Courses in Winter 2023
 authors: samuele
 tags: [courses]
 ---
 
-The BEST Messina University Association announces that registrations are open for the BEST Courses for the spring season 2023, which will be held in the period between March and June.
+The BEST Messina University Association announces that registrations are open for the BEST Courses for the winter season 2023, which will be held between December and February.
 
 <!--truncate-->
 
@@ -24,6 +24,6 @@ The same has happened for years in Messina, where thanks also to the support of 
 
 All students enrolled in courses and doctorates of the scientific-technological departments can participate in the BEST Courses.
 
-The deadline for applying to participate in the spring courses is set for 27 November.
+The deadline for applying to participate in the winter courses is set for 1 October.
 
-Ten European cities will host a BEST Course next spring, including Paris, Athens, Brussels, Grenoble, Lyon, Morstar, Turin, Valencia. The complete list is available on the website www.best.eu.org/courses/list.jsp. For more information visit the website www.bestmessina.org, write to messina@BEST-eu.org or contact the Facebook and Instagram page of BEST Messina.
+1 European city will host a BEST Course next winter: Graz. The complete list is available on the website www.best.eu.org/courses/list.jsp. For more information visit the website www.bestmessina.org, write to messina@BEST-eu.org or contact the Facebook and Instagram page of BEST Messina.
