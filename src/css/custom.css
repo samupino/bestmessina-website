@@ -28,17 +28,73 @@
 
 /* Blog posts author picture. */
 html.plugin-blog .avatar__photo {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 /* Blog posts title. */
-html.plugin-blog h2, 
+html.plugin-blog h2,
 html.plugin-blog.blog-post-page h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* Blog posts date text. */
 html.plugin-blog time {
-    font-style: italic;
+  font-style: italic;
+}
+
+/* Keep the blog list dense enough to scan several posts at once. */
+html.plugin-blog.blog-list-page article.margin-bottom--xl {
+  margin-bottom: 2.5rem !important;
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+html.plugin-blog.blog-list-page article h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+html.plugin-blog.blog-list-page article header {
+  margin-bottom: 0.75rem;
+}
+
+html.plugin-blog.blog-list-page article header > h2 {
+  margin-bottom: 0.9rem;
+}
+
+html.plugin-blog.blog-list-page .blog-card-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+html.plugin-blog.blog-list-page .blog-card-meta a {
+  color: inherit;
+}
+
+html.plugin-blog.blog-list-page .blog-card-meta__avatar {
+  align-self: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+html.plugin-blog.blog-list-page .blog-card-meta__text {
+  font-size: inherit;
+  font-weight: var(--ifm-font-weight-normal);
+  line-height: inherit;
+}
+
+html.plugin-blog.blog-list-page article p {
+  margin-bottom: 0.75rem;
+}
+
+html.plugin-blog.blog-list-page article footer {
+  margin-top: 0.75rem !important;
 }

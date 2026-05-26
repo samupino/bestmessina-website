@@ -1,0 +1,33 @@
+.sidebarYearList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebarYearItem {
+  margin-top: 0.5rem;
+}
+
+.sidebarYearLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 0;
+  color: var(--ifm-font-color-base);
+  font-weight: var(--ifm-font-weight-semibold);
+}
+
+.sidebarYearLink:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.sidebarYearCount {
+  min-width: 1.6rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.75rem;
+  text-align: center;
+}
