@@ -1,12 +1,14 @@
 ---
 title: AVEVA x BEST Messina - EcoTechEmerge Competition
 authors: selene
-tags: [Competitions]
+tags: [competitions]
 ---
 
 # AVEVA x BEST Messina - EcoTechEmerge Competition
 
-📣We’re excited to announce AVEVA’s #EcoTechEmerge is now open for 2nd year students and above studying science, engineering, computer science, data science, business and marketing fields!
+📣We're excited to announce AVEVA's #EcoTechEmerge is now open for 2nd year students and above studying science, engineering, computer science, data science, business and marketing fields!
+
+<!--truncate-->
 
 Participate in digital sustainability categories: AI, Edge Computing, Visualization, and all other tech.
 
