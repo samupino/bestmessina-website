@@ -1,12 +1,14 @@
 ---
 title: AVEVA x BEST Messina - EcoTechEmerge Competition
 authors: selene
-tags: [Competitions]
+tags: [competitions]
 ---
 
 # AVEVA x BEST Messina - EcoTechEmerge Competition
 
 📣Siamo entusiasti di annunciare che il programma #EcoTechEmerge di AVEVA è ora aperto agli studenti a partire dal 2° anno che studiano nel campo della scienza, ingegneria, informatica, data science, business and marketing!
+
+<!--truncate-->
 
 Partecipa alle varie categorie di sostenibilità digitale: AI, Edge Computing, Visualizzazione e tutte le altre tecnologie.
 
