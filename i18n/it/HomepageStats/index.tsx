@@ -14,7 +14,7 @@ const StatsList: StatItem[] = [
     Svg: require("@site/static/img/europe.svg").default,
   },
   {
-    value: 84,
+    value: 83,
     text: "gruppi locali",
     Svg: require("@site/static/img/group.svg").default,
   },
